@@ -1,4 +1,5 @@
 import NetworkStatus from "./components/NetworkStatus";
+import LocationTracker from "./components/LocationTracker";
 
 import "./App.css";
 
@@ -9,6 +10,7 @@ function App() {
         🛡️ SafeWalk - Personal Safety Companion
       </h1>
       <NetworkStatus />
+      <LocationTracker />
     </div>
   );
 }
