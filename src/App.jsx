@@ -1,5 +1,6 @@
 import NetworkStatus from "./components/NetworkStatus";
 import LocationTracker from "./components/LocationTracker";
+import MapCanvas from "./components/MapCanvas";
 
 import "./App.css";
 
@@ -11,6 +12,7 @@ function App() {
       </h1>
       <NetworkStatus />
       <LocationTracker />
+      <MapCanvas />
     </div>
   );
 }
