@@ -14,7 +14,7 @@ export default function LocationTracker() {
   }, []);
 
   return (
-    <div className="p-4 mb-4 rounded-lg bg-blue-100">
+    <div className="p-4 mb-4 rounded-xl bg-blue-100">
       <h2 className="text-xl font-semibold">📍 Live Location</h2>
       {error && <p className="text-red-500">Error: {error}</p>}
       {position ? (
