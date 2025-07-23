@@ -24,7 +24,7 @@ export default function NetworkStatus() {
 
   return (
     <div
-      className={`p-4 mb-4 rounded-xl ${
+      className={`p-4 mb-4 rounded-lg ${
         status ? "bg-green-100" : "bg-red-100"
       }`}
     >
